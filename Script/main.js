@@ -1,12 +1,12 @@
 const myImages = [
-    '../Image/amazon.jpg',
-    '../Image/apple.jpg',
-    '../Image/dell.jpg',
-    '../Image/jordan.jpg',
-    '../Image/macDo.jpg',
-    '../Image/nasa.jpg',
-    '../Image/starbucks.jpg',
-    '../Image/windows.jpg'
+    '../Image/amazon.png',
+    '../Image/apple.png',
+    '../Image/dell.png',
+    '../Image/jordan.png',
+    '../Image/macDo.png',
+    '../Image/nasa.png',
+    '../Image/starbucks.png',
+    '../Image/windows.png'
 ];
 const memoryGame = document.getElementById('memory-game');
 const movesCounter = document.getElementById('moves-counter');

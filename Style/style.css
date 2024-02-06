@@ -10,7 +10,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
-    background-image: url('../Image/bgc.jpg');
+    background-image: url('../Image/bgc.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@
     justify-content: center;
     font-size: 24px;
     cursor: pointer;
-    background-image: url('../Image/cerveau.jpg');
+    background-image: url('../Image/cerveau.png');
     background-size: cover;
     background-position: center;
     border-radius: 5px;
