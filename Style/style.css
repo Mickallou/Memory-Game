@@ -10,6 +10,7 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
     background-image: url('../Image/bgc.png');
     background-size: cover;
     background-position: center;
@@ -74,4 +75,26 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     background-color: #6A766C;
     font-family: 'PT Serif', serif;
+}
+
+@media (max-width: 790px) {
+    .container {
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    #memory-game {
+        grid-template-columns: repeat(4, 70px);
+        grid-gap: 5px;
+    }
+
+    .card {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card .hidden {
+        width: 60px;
+        height: 60px;
+    }
 }
